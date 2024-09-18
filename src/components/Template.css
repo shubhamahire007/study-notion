@@ -1,0 +1,59 @@
+.container{
+    max-height: 100%;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.subCont{
+    max-width: 360px;
+    max-height: 450px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 44px;
+}
+.heading{
+    font-size: 1.875rem;
+    line-height: 2.375rem;
+    color: white;
+}
+.desc{
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+    margin-top: 7px;
+}
+.desc1{
+    color: white;
+}
+.desc2{
+    color: rgb(130 130 233);
+    font-style: italic;
+}
+.or{
+    display: flex;
+    color: rgba(255, 255, 255, 0.546);
+    width: 100%;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    margin-top: 17px;
+}
+.line{
+    background-color: rgba(132, 130, 130, 0.674);
+    height: 0.75px;
+    width: 214px;
+}
+.google{
+    all: unset;
+    color: rgba(210, 205, 205, 0.916);
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(99, 98, 98, 0.733);
+    border-radius: 8px;
+    padding: 7px 109px;
+    margin-top: 25px;
+    cursor: pointer;
+    font-size: 14px;
+}

@@ -1,0 +1,93 @@
+.signup{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.btns_{
+    background-color: #2a2727;
+    color: #e6e0e0dc;
+    border-radius: 21px;
+    max-width: fit-content;
+    padding: 3px 5px;
+    display: flex;
+    gap: 27px;
+    margin-bottom: 10px;
+    margin-left: 92px;
+}
+.btn{
+    all: unset;
+    cursor: pointer;
+    transition: all 500ms;
+}
+.bgColor{
+    background-color: black;
+    padding: 5px 8px;
+    border-radius: 31px;
+    color: rgb(255, 255, 255);
+    border: 1px solid #8c8585cc;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.names{
+    display: flex;
+    gap: 15px;
+}
+.passwords{
+    display: flex;
+    gap: 15px;
+}
+
+.eye1{
+    color: #aca1a1;
+    position: absolute;
+    bottom: 6px;
+    right: 10px;
+    font-size: 19px;
+    cursor: pointer;
+}
+.password{
+    position: relative;
+}
+.confirm{
+    position: relative;
+}
+.eye2{
+    color: #aca1a1;
+    position: absolute;
+    right: 9px;
+    bottom: 6px;
+    font-size: 19px;
+    cursor: pointer;
+} 
+.input{
+    width: 100%;
+    border-radius: 0.5rem;
+    padding: 11px 0;
+    background-color: #201f1fb5;
+    color: white;
+    border: none;
+    border: 0.1px solid #57545485;
+    padding-left: 11px;
+    /* position: relative; */
+}
+.mail{
+    color: rgb(255 255 255 / 79%);
+    font-size: 0.775rem;
+    line-height: 1.375rem;
+}
+.star{
+    color: rgba(220, 33, 33, 0.795);
+}
+.createBtn{
+    all: unset;
+    color: black;
+    background-color: #f2c012;
+    text-align: center;
+    border-radius: 8px;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin-top: 21px;
+}

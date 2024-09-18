@@ -1,0 +1,40 @@
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 10px;
+}
+.list{
+    display: flex;
+    gap: 3rem;
+    text-decoration: none;
+    list-style: none;
+    /* all: unset; */
+}
+.lists{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.76);
+}
+.Navbtn{
+    color: rgb(224 216 216 / 87%);
+    padding: 8px 12px 8px 12px;
+    border-radius: 8px;
+    border: 1px solid rgb(48, 47, 47);
+    background-color: rgb(26 24 24);
+}
+.btns{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem;
+}
+/* .btn{
+    all: unset;
+    color: rgba(207, 204, 204, 0.874);
+    color: white; */
+    /* background-color: rgba(18, 17, 17, 0.947) ;
+    color: rgba(207, 204, 204, 0.874);
+    padding: 8px 12px 8px 12px;
+    border-radius: 8px;
+    border: 1px solid rgb(48, 47, 47); */
+/* } */
